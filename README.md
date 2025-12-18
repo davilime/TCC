@@ -39,6 +39,10 @@ As métricas de avaliação incluem Dice por classe tumoral e o **Pseudo Dice (E
 
 ---
 
+Para rodar a GUI do nnU-Net no Windows via WSL, crie e ative um ambiente virtual Python com python3 -m venv nnunet_env e source nnunet_env/bin/activate, depois instale as dependências com pip install -r requirements.txt. Certifique-se de ter o ITK-SNAP instalado no Windows, pois a GUI depende dele para visualização 3D. Em seguida, configure as variáveis de ambiente nnUNet_raw_data_base, nnUNet_preprocessed e RESULTS_FOLDER apontando para suas pastas de dados e resultados. Por fim, execute python gui.py dentro da pasta gui para abrir a interface e começar a treinar ou inferir modelos.
+
+---
+
 ## Frameworks e Implementações Utilizadas
 
 Este trabalho utiliza implementações consolidadas e amplamente validadas na literatura científica:
