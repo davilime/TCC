@@ -1,6 +1,6 @@
 # TCC — Ferramenta de Segmentação Automática e Visualização 3D de Tumores Cerebrais Utilizando ITK-SNAP
 
-Este repositório contém os códigos, experimentos e materiais desenvolvidos no Trabalho de Conclusão de Curso de **Davi Lima**, cujo objetivo é a segmentação automática de tumores cerebrais em imagens de ressonância magnética e sua integração com o software ITS SNAP para análise morfológica e volumétrica.
+Este repositório contém os códigos, experimentos e materiais desenvolvidos no Trabalho de Conclusão de Curso de **Davi Lima**, cujo objetivo é a segmentação automática de tumores cerebrais em 4 regiões em imagens de ressonância magnética e sua integração com o software ITK SNAP para análise morfológica e volumétrica.
 
 O trabalho explora diferentes configurações arquiteturais e estratégias de pré-processamento, avaliando seu impacto no desempenho da segmentação e no custo computacional.
 
@@ -10,14 +10,14 @@ O trabalho explora diferentes configurações arquiteturais e estratégias de pr
 
 A organização do projeto segue uma separação lógica entre dados, experimentos, treinamento final e interfaces gráficas:
 
-> ├── 1.Data/ # Estrutura de dados, subsets e metadados
-> ├── 2. EDA/ # Análises exploratórias dos dados
-> ├── 3. tests/ # Testes e experimentos preliminares
-> ├── 4.final_training/ # Treinamento final e inferência
-> ├── 5.GUI/ # Interface gráfica do sistema
-> ├── Monografia_Davi_Lima.pdf
-> ├── test_subset_*.xlsx # Arquivos auxiliares de subsets
-> └── README.md
+├── 1.Data/ # Estrutura de dados, subsets e metadados
+├── 2. EDA/ # Análises exploratórias dos dados
+├── 3. tests/ # Testes e experimentos preliminares
+├── 4.final_training/ # Treinamento final e inferência
+├── 5.GUI/ # Interface gráfica do sistema
+├── Monografia_Davi_Lima.pdf
+├── test_subset_*.xlsx # Arquivos auxiliares de subsets
+└── README.md
 
 
 Arquivos de grande porte, como volumes NIfTI (`.nii.gz`), pesos de modelos (`.pth`) e artefatos intermediários de treinamento **não são versionados**, conforme definido no `.gitignore`.
