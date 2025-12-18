@@ -1,0 +1,278 @@
+{
+    "channel_names": {
+        "0": "T1",
+        "1": "T1C",
+        "2": "T2W",
+        "3": "T2F"
+    },
+    "labels": {
+        "background": 0,
+        "NETC": 1,
+        "SNFH": 2,
+        "ET": 3,
+        "RC": 4
+    },
+    "numTraining": 24,
+    "file_ending": ".nii.gz",
+    "licence": "see https://www.synapse.org/Synapse:syn53708249/wiki/627508",
+    "converted_by": "Please enter your name, especially when sharing datasets with others in a common infrastructure!",
+    "name": "Dataset001_MyBraTS",
+    "reference": "https://www.synapse.org/Synapse:syn53708249/wiki/627500",
+    "description": "Dataset MyBraTS subset 30 para nnU-Net (relative paths, treino + teste separado).",
+    "dataset": {
+        "BraTS-GLI-00485-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-00485-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-00485-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-00485-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-00485-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-00485-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-00547-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-00547-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-00547-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-00547-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-00547-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-00547-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02160-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02160-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02160-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02160-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02160-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02160-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02170-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02170-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02170-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02170-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02170-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02170-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02194-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02194-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02194-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02194-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02194-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02194-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02334-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02334-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02334-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02334-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02334-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02334-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02336-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02336-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02336-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02336-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02336-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02336-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02375-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02375-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02375-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02375-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02375-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02375-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02421-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02421-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02421-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02421-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02421-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02421-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02484-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02484-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02484-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02484-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02484-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02484-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02487-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02487-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02487-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02487-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02487-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02487-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02580-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02580-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02580-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02580-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02580-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02580-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02615-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02615-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02615-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02615-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02615-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02615-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02618-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02618-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02618-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02618-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02618-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02618-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02624-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02624-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02624-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02624-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02624-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02624-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02698-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02698-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02698-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02698-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02698-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02698-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02817-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02817-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02817-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02817-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02817-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02817-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02821-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02821-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02821-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02821-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02821-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02821-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02879-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02879-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02879-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02879-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02879-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02879-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02914-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02914-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02914-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02914-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02914-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02914-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02932-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02932-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02932-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02932-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02932-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02932-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02941-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02941-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02941-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02941-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02941-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02941-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-02953-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-02953-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02953-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02953-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02953-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-02953-100_0003.nii.gz"
+            ]
+        },
+        "BraTS-GLI-03014-100": {
+            "label": "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/labelsTr/BraTS-GLI-03014-100-seg.nii.gz",
+            "images": [
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-03014-100_0000.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-03014-100_0001.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-03014-100_0002.nii.gz",
+                "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTr/BraTS-GLI-03014-100_0003.nii.gz"
+            ]
+        }
+    },
+    "test": [
+        [
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-00008-100_0000.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-00008-100_0001.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-00008-100_0002.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-00008-100_0003.nii.gz"
+        ],
+        [
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02152-100_0000.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02152-100_0001.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02152-100_0002.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02152-100_0003.nii.gz"
+        ],
+        [
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02244-100_0000.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02244-100_0001.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02244-100_0002.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02244-100_0003.nii.gz"
+        ],
+        [
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02251-100_0000.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02251-100_0001.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02251-100_0002.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02251-100_0003.nii.gz"
+        ],
+        [
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02745-100_0000.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02745-100_0001.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02745-100_0002.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02745-100_0003.nii.gz"
+        ],
+        [
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02872-100_0000.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02872-100_0001.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02872-100_0002.nii.gz",
+            "/content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_30/nnUNet_raw/Dataset001_MyBraTS/imagesTs/BraTS-GLI-02872-100_0003.nii.gz"
+        ]
+    ]
+}

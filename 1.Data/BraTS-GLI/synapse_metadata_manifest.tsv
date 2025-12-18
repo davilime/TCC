@@ -1,0 +1,6 @@
+path	parent	name	id	synapseStore	contentType	used	executed	activityName	activityDescription
+c:\users\01dav\documents\tcc\data\brats-gli\brats-ptg supplementary demographic information and metadata.xlsx	syn59059776	BraTS-PTG supplementary demographic information and metadata.xlsx	syn64735496	True	application/vnd.openxmlformats-officedocument.spreadsheetml.sheet				
+c:\users\01dav\documents\tcc\data\brats-gli\brats2024-brats-gli-additionaltrainingdata.zip	syn59059776	BraTS2024-BraTS-GLI-AdditionalTrainingData.zip	syn64314352	True	application/zip				
+c:\users\01dav\documents\tcc\data\brats-gli\brats2024-brats-gli-trainingdata.zip	syn59059776	BraTS2024-BraTS-GLI-TrainingData.zip	syn60086071	True	application/zip				
+c:\users\01dav\documents\tcc\data\brats-gli\brats2024-brats-gli-validationdata.zip	syn59059776	BraTS2024-BraTS-GLI-ValidationData.zip	syn61455507	True	application/zip				
+c:\users\01dav\documents\tcc\data\brats-gli\citations.bib	syn59059776	CITATIONS.bib	syn59808905	True	application/octet-stream				

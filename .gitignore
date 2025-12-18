@@ -1,0 +1,45 @@
+# Ambientes e credenciais
+.aws/
+.azure/
+.gcloud/
+.env/
+.env*/
+
+# Ambientes Python
+venv/
+env/
+.venv/
+*/venv/
+*/env/
+
+# nnU-Net / Deep Learning
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.onnx
+
+# Dados médicos
+*.nii
+*.nii.gz
+
+# Resultados e modelos
+nnUNet_results/
+nnUNet_preprocessed/
+nnUNet_raw_data_base/
+models/
+checkpoints/
+*.plk
+*.b2nd
+
+# Cache e temporários
+__pycache__/
+.ipynb_checkpoints/
+*.log
+*.tmp
+
+# Sistema
+desktop.ini
+.DS_Store
+Thumbs.db
+

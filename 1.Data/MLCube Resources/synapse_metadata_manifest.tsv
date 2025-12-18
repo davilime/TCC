@@ -1,0 +1,5 @@
+path	parent	name	id	synapseStore	contentType	used	executed	activityName	activityDescription
+c:\users\01dav\documents\tcc\data\mlcube resources\brats-gli-2024-fastlane.tar.gz	syn61956466	BraTS-GLI-2024-fastlane.tar.gz	syn61987893	True	application/x-gzip				
+c:\users\01dav\documents\tcc\data\mlcube resources\brats-men-rt-fastlane.tar.gz	syn61956466	BraTS-MEN-RT-fastlane.tar.gz	syn61956214	True	application/x-gzip				
+c:\users\01dav\documents\tcc\data\mlcube resources\brats-path-fastlane.tar.gz	syn61956466	BraTS-Path-fastlane.tar.gz	syn61956215	True	application/x-gzip				
+c:\users\01dav\documents\tcc\data\mlcube resources\brats2024-compat-test-mlcubes.tar.gz	syn61956466	BraTS2024-compat-test-mlcubes.tar.gz	syn61956504	True	application/x-gzip				

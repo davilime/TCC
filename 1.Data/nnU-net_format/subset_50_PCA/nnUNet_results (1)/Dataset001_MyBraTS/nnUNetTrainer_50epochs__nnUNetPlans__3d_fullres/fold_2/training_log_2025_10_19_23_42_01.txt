@@ -1,0 +1,24 @@
+
+#######################################################################
+Please cite the following paper when using nnU-Net:
+Isensee, F., Jaeger, P. F., Kohl, S. A., Petersen, J., & Maier-Hein, K. H. (2021). nnU-Net: a self-configuring method for deep learning-based biomedical image segmentation. Nature methods, 18(2), 203-211.
+#######################################################################
+ 
+2025-10-19 23:42:01.910429: do_dummy_2d_data_aug: False 
+2025-10-19 23:42:01.919382: Using splits from existing split file: /content/drive/MyDrive/TCC/1.Data/nnU-net_format/subset_50_PCA/nnUNet_preprocessed/Dataset001_MyBraTS/splits_final.json 
+2025-10-19 23:42:02.296901: The split file contains 5 splits. 
+2025-10-19 23:42:02.304067: Desired fold for training: 2 
+2025-10-19 23:42:02.313713: This split has 32 training and 8 validation cases. 
+
+This is the configuration used by this training:
+Configuration name: 3d_fullres
+ {'data_identifier': 'nnUNetPlans_3d_fullres', 'preprocessor_name': 'DefaultPreprocessor', 'batch_size': 2, 'patch_size': [128, 128, 128], 'median_image_size_in_voxels': [182.0, 218.0, 182.0], 'spacing': [1.0, 1.0, 1.0], 'normalization_schemes': ['ZScoreNormalization', 'ZScoreNormalization', 'ZScoreNormalization'], 'use_mask_for_norm': [False, False, False], 'resampling_fn_data': 'resample_data_or_seg_to_shape', 'resampling_fn_seg': 'resample_data_or_seg_to_shape', 'resampling_fn_data_kwargs': {'is_seg': False, 'order': 3, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_seg_kwargs': {'is_seg': True, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'resampling_fn_probabilities': 'resample_data_or_seg_to_shape', 'resampling_fn_probabilities_kwargs': {'is_seg': False, 'order': 1, 'order_z': 0, 'force_separate_z': None}, 'architecture': {'network_class_name': 'dynamic_network_architectures.architectures.unet.PlainConvUNet', 'arch_kwargs': {'n_stages': 6, 'features_per_stage': [32, 64, 128, 256, 320, 320], 'conv_op': 'torch.nn.modules.conv.Conv3d', 'kernel_sizes': [[3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3], [3, 3, 3]], 'strides': [[1, 1, 1], [2, 2, 2], [2, 2, 2], [2, 2, 2], [2, 2, 2], [2, 2, 2]], 'n_conv_per_stage': [2, 2, 2, 2, 2, 2], 'n_conv_per_stage_decoder': [2, 2, 2, 2, 2], 'conv_bias': True, 'norm_op': 'torch.nn.modules.instancenorm.InstanceNorm3d', 'norm_op_kwargs': {'eps': 1e-05, 'affine': True}, 'dropout_op': None, 'dropout_op_kwargs': None, 'nonlin': 'torch.nn.LeakyReLU', 'nonlin_kwargs': {'inplace': True}}, '_kw_requires_import': ['conv_op', 'norm_op', 'dropout_op', 'nonlin']}, 'batch_dice': False} 
+ 
+These are the global plan.json settings:
+ {'dataset_name': 'Dataset001_MyBraTS', 'plans_name': 'nnUNetPlans', 'original_median_spacing_after_transp': [1.0, 1.0, 1.0], 'original_median_shape_after_transp': [182, 218, 182], 'image_reader_writer': 'SimpleITKIO', 'transpose_forward': [0, 1, 2], 'transpose_backward': [0, 1, 2], 'experiment_planner_used': 'ExperimentPlanner', 'label_manager': 'LabelManager', 'foreground_intensity_properties_per_channel': {'0': {'max': 11.452632904052734, 'mean': 1.8397125005722046, 'median': 2.202989339828491, 'min': -2.4418787956237793, 'percentile_00_5': -1.9254823923110962, 'percentile_99_5': 5.066551208496094, 'std': 1.3897799253463745}, '1': {'max': 10.815167427062988, 'mean': 3.522451877593994, 'median': 3.3715453147888184, 'min': -1.1462844610214233, 'percentile_00_5': 0.45256632566452026, 'percentile_99_5': 6.9184746742248535, 'std': 1.1090384721755981}, '2': {'max': 8.963302612304688, 'mean': 1.9548485279083252, 'median': 1.763189435005188, 'min': -1.6243746280670166, 'percentile_00_5': 0.2670391798019409, 'percentile_99_5': 5.016310214996338, 'std': 0.8757749795913696}}} 
+ 
+2025-10-19 23:43:07.706701: Unable to plot network architecture: 
+2025-10-19 23:43:07.714082: module 'torch.onnx' has no attribute '_optimize_trace' 
+2025-10-19 23:43:09.858191:  
+2025-10-19 23:43:09.868134: Epoch 0 
+2025-10-19 23:43:09.879148: Current learning rate: 0.01 

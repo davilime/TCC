@@ -1,0 +1,25 @@
+path	parent	name	id	synapseStore	contentType	used	executed	activityName	activityDescription
+c:\users\01dav\documents\tcc\data\brats-gli\brats-ptg supplementary demographic information and metadata.xlsx	syn59059776	BraTS-PTG supplementary demographic information and metadata.xlsx	syn64735496	True	application/vnd.openxmlformats-officedocument.spreadsheetml.sheet				
+c:\users\01dav\documents\tcc\data\brats-gli\brats2024-brats-gli-additionaltrainingdata.zip	syn59059776	BraTS2024-BraTS-GLI-AdditionalTrainingData.zip	syn64314352	True	application/zip				
+c:\users\01dav\documents\tcc\data\brats-gli\brats2024-brats-gli-trainingdata.zip	syn59059776	BraTS2024-BraTS-GLI-TrainingData.zip	syn60086071	True	application/zip				
+c:\users\01dav\documents\tcc\data\brats-gli\brats2024-brats-gli-validationdata.zip	syn59059776	BraTS2024-BraTS-GLI-ValidationData.zip	syn61455507	True	application/zip				
+c:\users\01dav\documents\tcc\data\brats-gli\citations.bib	syn59059776	CITATIONS.bib	syn59808905	True	application/octet-stream				
+c:\users\01dav\documents\tcc\data\brats-goat\citations.bib	syn68156890	CITATIONS.bib	syn60084285	True	application/octet-stream				
+c:\users\01dav\documents\tcc\data\brats-goat\readme.md	syn68156890	README.md	syn68156891	True	text/markdown				
+./Data\BraTS-MEN-RT	syn59059779	BraTS-MEN-RT-0402-1.zip	syn64826221	True					
+./Data\BraTS-MEN-RT	syn59059779	BraTS2024-MEN-RT-TrainingData.zip	syn60085033	True					
+./Data\BraTS-MEN-RT	syn59059779	BraTS2024-MEN-RT-ValidationData.zip	syn61484746	True					
+./Data\BraTS-MEN-RT	syn59059779	CITATION.bib	syn59808907	True					
+./Data\BraTS-MEN-RT	syn59059779	Meningioma radiotherapy supplementary clinical data and imaging parameters for training and validation sets.xlsx	syn65415290	True					
+c:\users\01dav\documents\tcc\data\brats-met\citation.bib	syn68156869	CITATION.bib	syn59808910	True	application/octet-stream				
+c:\users\01dav\documents\tcc\data\brats-met\readme.md	syn68156869	README.md	syn68156870	True	text/markdown				
+c:\users\01dav\documents\tcc\data\brats-ped\citation.bib	syn68156871	CITATION.bib	syn59808912	True	application/octet-stream				
+c:\users\01dav\documents\tcc\data\brats-ped\readme.md	syn68156871	README.md	syn68156872	True	text/markdown				
+c:\users\01dav\documents\tcc\data\brats-path\citation.bib	syn59761935	CITATION.bib	syn59808915	True	application/octet-stream				
+c:\users\01dav\documents\tcc\data\brats-path\readme.md	syn59761935	README.md	syn68156853	True	text/markdown				
+c:\users\01dav\documents\tcc\data\brats-ssa\citation.bib	syn59059780	CITATION.bib	syn59808916	True	application/octet-stream				
+c:\users\01dav\documents\tcc\data\brats-ssa\readme.md	syn59059780	README.md	syn68156788	True	text/markdown				
+c:\users\01dav\documents\tcc\data\mlcube resources\brats-gli-2024-fastlane.tar.gz	syn61956466	BraTS-GLI-2024-fastlane.tar.gz	syn61987893	True	application/x-gzip				
+c:\users\01dav\documents\tcc\data\mlcube resources\brats-men-rt-fastlane.tar.gz	syn61956466	BraTS-MEN-RT-fastlane.tar.gz	syn61956214	True	application/x-gzip				
+c:\users\01dav\documents\tcc\data\mlcube resources\brats-path-fastlane.tar.gz	syn61956466	BraTS-Path-fastlane.tar.gz	syn61956215	True	application/x-gzip				
+c:\users\01dav\documents\tcc\data\mlcube resources\brats2024-compat-test-mlcubes.tar.gz	syn61956466	BraTS2024-compat-test-mlcubes.tar.gz	syn61956504	True	application/x-gzip				
