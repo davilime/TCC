@@ -1,6 +1,6 @@
 # TCC — Ferramenta de Segmentação Automática e Visualização 3D de Tumores Cerebrais Utilizando ITK-SNAP
 
-Este repositório contém os códigos, experimentos e materiais desenvolvidos no Trabalho de Conclusão de Curso de **Davi Lima**, cujo objetivo é a segmentação automática de tumores cerebrais em imagens de ressonância magnética utilizando o framework **nnU-Net**.
+Este repositório contém os códigos, experimentos e materiais desenvolvidos no Trabalho de Conclusão de Curso de **Davi Lima**, cujo objetivo é a segmentação automática de tumores cerebrais em imagens de ressonância magnética e sua integração com o software ITS SNAP para análise morfológica e volumétrica.
 
 O trabalho explora diferentes configurações arquiteturais e estratégias de pré-processamento, avaliando seu impacto no desempenho da segmentação e no custo computacional.
 
@@ -60,6 +60,14 @@ Para os experimentos com mecanismos de atenção espacial, foi utilizado o repos
 > McConnell, N., Ndipenoch, N., Cao, Y., Miron, A., & Li, Y.  
 > *Exploring advanced architectural variations of nnU-Net*.  
 > Neurocomputing, 560, 126837, 2023.
+
+### ITK-SNAP
+
+A visualização tridimensional, inspeção qualitativa das segmentações e análises morfológicas foram realizadas utilizando o software ITK-SNAP, amplamente empregado em aplicações de segmentação médica interativa e semiautomática. O ITK-SNAP foi utilizado tanto para validação visual dos resultados quanto para apoio à interpretação clínica das regiões tumorais segmentadas.
+
+> Yushkevich, P. A., Piven, J., Hazlett, H. C., Smith, R. G., Ho, S., Gee, J. C., & Gerig, G.  
+> User-guided 3D active contour segmentation of anatomical structures: significantly improved efficiency and reliability.  
+> NeuroImage, 31(3), 1116–1128, 2006.
 
 ---
 
