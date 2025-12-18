@@ -10,13 +10,13 @@ O trabalho explora diferentes configurações arquiteturais e estratégias de pr
 
 A organização do projeto segue uma separação lógica entre dados, experimentos, treinamento final e interfaces gráficas:
 
-├── 1.Data/ # Estrutura de dados, subsets e metadados
-├── 2. EDA/ # Análises exploratórias dos dados
-├── 3. tests/ # Testes e experimentos preliminares
-├── 4.final_training/ # Treinamento final e inferência
-├── 5.GUI/ # Interface gráfica do sistema
-├── Monografia_Davi_Lima.pdf
-├── test_subset_*.xlsx # Arquivos auxiliares de subsets
+├── 1.Data/                  # Estrutura de dados, subsets e metadados
+├── 2. EDA/                  # Análises exploratórias dos dados
+├── 3. tests/                # Testes e experimentos preliminares
+├── 4.final_training/        # Treinamento final e inferência
+├── 5.GUI/                   # Interface gráfica do sistema
+├── Monografia_Davi_Lima.pdf # Documento final do TCC
+├── test_subset_*.xlsx       # Arquivos auxiliares de subsets
 └── README.md
 
 
